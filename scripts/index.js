@@ -7,8 +7,8 @@ function Proceed() {
         showCustomAlert("⚠ Please fill all fields! valid nhi hai to bhi chalega, par maza nhi ayega😎");
         return;
     }
-    if (adhar.length !== 12 || isNaN(adhar)) {
-        showCustomAlert("⚠ Please enter a valid 12-digit Aadhar number! valid nhi hai to bhi chalega, par maza nhi ayega😎");
+    if (adhar.length !== 8 || isNaN(adhar)) {
+        showCustomAlert("⚠ Please enter a valid 8-digit Voter ID number! valid nhi hai to bhi chalega, par maza nhi ayega😎");
         return;
     }
     if (isNaN(Date.parse(dob))) {
