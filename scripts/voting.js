@@ -115,12 +115,12 @@ function voteCount() {
     return `
         <div style="display:flex; flex-direction:column; justify-content:center; align-items:center; height:100vh;">
             <h1 style="font-size:3rem; color:green;">Thank you for voting!</h1>
-            <p style="font-size:1.5rem;">Total Votes to Narendra Modi: ${Math.floor(count)}</p>
-            <p style="font-size:1.5rem;">Total Votes to Kejriwal: ${Math.floor(count / 1119)}</p>
-            <p style="font-size:1.5rem;">Total Votes to Rahul Gandhi: ${Math.floor(count / 2109)}</p>
-            <p style="font-size:1.5rem;">Mamata Banerjee: NOTA se bhi kam 😎</p>
-            <p style="font-size:1.5rem;">Tejashwi Yadav: ${Math.floor(count / 2009)}</p>
-            <p style="font-size:1.5rem;">Priyanka Gandhi: ${Math.floor(count / 11334)}</p>
+            <p style="font-size:1rem; text-align:left;">Total Votes to Narendra Modi: ${Math.floor(count)}</p>
+            <p style="font-size:1rem; text-align:left;">Total Votes to Kejriwal: ${Math.floor(count / 1119)}</p>
+            <p style="font-size:1rem; text-align:left;">Total Votes to Rahul Gandhi: ${Math.floor(count / 2109)}</p>
+            <p style="font-size:1rem; text-align:left;">Mamata Banerjee: NOTA se bhi kam 😎</p>
+            <p style="font-size:1rem; text-align:left;">Tejashwi Yadav: ${Math.floor(count / 2009)}</p>
+            <p style="font-size:1rem; text-align:left;">Priyanka Gandhi: ${Math.floor(count / 11334)}</p>
             <h1 style="font-size:3rem; color:orange;">Aap kisi ko vote do — Jitega to Modi hi 😎</h1>
         </div>
     `;
